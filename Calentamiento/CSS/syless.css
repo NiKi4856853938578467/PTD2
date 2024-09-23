@@ -1,0 +1,68 @@
+.img1 {
+    width: 100%;
+    clip-path: polygon(0 0%, 100% 0%, 100% 91%, 0 100%);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: -145px;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 75%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }  
+.img2 {
+  margin-top: -25%;
+  width: 25%;
+  position: absolute;
+  margin-left: 5%;
+}
+body{
+  background-color: grey;
+}
+footer{
+  background-color: rgb(214, 214, 214);
+}
+.footer{
+  margin-left: 40%;
+  margin-right: 15%;
+}
+a {
+  color: blue;
+}
+.texto{
+  margin-top: 4%;
+}
+header{
+  background-color: rgb(214, 214, 214);
+}
+
+.buton{
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 12%;
+  width: 100px;
+  border-radius: 10px;
+}
+.buton2{
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 12%;
+  width: 100px;
+  border-radius: 10px;
+}
+.buton3{
+  position: absolute;
+  margin-left: 12.8%;
+  margin-top: 14%;
+  width: 100px;
+  border-radius: 10px;
+}
