@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+#imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(57, 182, 57);
+    padding: 5px;
+    border-color: yellow;
+    border-style: solid;
+    width: 90px;
+    height: 90px;
+    
+}
+#palabra{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+#letra{
+    margin-left: 49%;
+    width: 20px;
+    padding: 5px;
+    border-color: cyan;
+    border-style: solid;
+}
+#boton{
+    margin-left: 47.6%;
+    padding: 1%;
+    border-color: cyan;
+    border-style: solid;
+    background-color: gray;
+    color: white;
+ 
+}
+.titulo2{
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 70px;
+    left: 1200px;
+    width: 300px;
+    height: 400px;
+    padding: 0px 10px;
+}
+#lista_letras{
+    background-color: rgb(127, 135, 209);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin-left: 1px;
+    height: 300px;
+}
+#prueba{
+    color: white;
+    text-align: center;
+}
+#fallo{
+    position: absolute;
+    top: 480px;
+    left: 765px;
+    color: white;
+    display: none;
+}
+#reiniciar{
+    padding: 5px;
+    margin-left: -2%;
+
+}
