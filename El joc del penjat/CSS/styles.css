@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+    
+h1, h2 {
+    
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+    
+.left{
+    
+    display: block;
+    position: absolute;top: 70px;
+    margin-left: 8%;
+    margin-top: 60px;
+    margin-right: 70%;
+    padding: 90px;
+    margin-left: 70px;
+    
+}
+    
+input {
+
+        margin-left: 60px;
+        height: 30px;
+}
+.imagen1{
+    
+    margin-bottom: 20px;
+    margin-left: 70px;
+    
+}
+        
+    
+.boton{
+    
+    margin-left: 40%;
+    padding: 1%;
+    border-color: cyan;
+    border-style: solid;
+    background-color: gray;
+    color: white;    
+}
+    
+.right{
+        
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 50px;
+    
+}
+    
+.titulo-centro{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;    
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px black;
+    
+}
+    
+.llistat_lletres{
+    
+    background-color: rgba(87, 48, 121, 0.785);
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+    
+.palabra{
+    
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+    
+input {
+    margin-left: 130px;
+    width: 30px;
+}
+    
+#derrota,#victoria {
+
+    display:none 
+
+}
+    
+#victoria{
+  
+    position: absolute;
+   color: white;
+} 
+
+#derrota{
+
+    position: absolute;
+    color: white;
+}
+    
+    
