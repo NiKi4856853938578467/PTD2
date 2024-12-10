@@ -64,7 +64,7 @@ body{
 #fallo{
     position: absolute;
     top: 480px;
-    left: 765px;
+    left: 960px;
     color: white;
     display: none;
 }
@@ -72,4 +72,12 @@ body{
     padding: 5px;
     margin-left: -2%;
 
+}
+#acierto{
+    position: absolute;
+    top: 480px;
+    left: 960px;
+    color: white;
+    display: none;
+    
 }

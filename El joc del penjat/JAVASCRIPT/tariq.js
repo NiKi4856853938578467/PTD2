@@ -48,14 +48,15 @@ document.getElementById("formulario").reset()
 for (let i=0;i<arrayparaulasecreta.length;i++){
     
     if(arrayparaulasecreta[i] == letra) {
-        arraypalabraguiones[i] = letra
-        encert = true
-        numencerts++
+        arraypalabraguiones[i] = letra;
+        encert = true;
+        numencerts++;
     }
 }
 if(!encert){
-    numfallos++
+    numfallos++;
 }
+
 document.getElementById("palabra").innerHTML = ""
 
 for(let i=0;i<arraypalabraguiones.length;i++){
@@ -82,56 +83,60 @@ function dibuixar (fallos, aciertos){
     switch(fallos){
 
     case 0:
-        imatge.src = "../IMG/A0.png";
+        imatge.src = "IMG/A0.png";
         break;
 
     case 1:
-        imatge.src = "../IMG/A1.png"
+        imatge.src = "IMG/A1.png"
         break;
         
     case 2:
-        imatge.src = "../IMG/A2.png"
+        imatge.src = "IMG/A2.png"
         break;
 
     case 3:
-        imatge.src = "../IMG/A3.png"
+        imatge.src = "IMG/A3.png"
         break;
 
     case 4:
-        imatge.src = "../IMG/A4.png"
+        imatge.src = "IMG/A4.png"
         break;
 
     case 5:
-        imatge.src = "../IMG/A5.png"
+        imatge.src = "IMG/A5.png"
         break;
 
     case 6:
-        imatge.src = "../IMG/A6.png"; 
-        document.getElementById("tariq").innerHTML = " Has perdut ";
+        imatge.src = "IMG/A6.png"; 
+        document.getElementById("perder").innerHTML = " Has perdut ";
         document.getElementById("fallo").style.display = "block";
         break;
     }
   
-    if (aciertos = arrayparaulasecreta.length){
+    if (fallos >= 6){
 
-        document.getElementById("tariq").innerHTML = " Has guanyat "
+        document.getElementById("palabra").innerHTML = "";
+
+        for(let i=0;i<arrayparaulasecreta.length;i++){
+            document.getElementById("palabra").innerHTML +=
+            `${arrayparaulasecreta[i]}`;
+        }
     }
-
     
+    else if (aciertos >= arrayparaulasecreta.length){
+
+        document.getElementById("ganar").innerHTML = "Has ganado"
+}
+    
+
+
+
 
 
     let refresh = document.getElementById('reiniciar');
     refresh.addEventListener('click', _ => {
                 location.reload();
     })
-
-
-
-
-
-
-
-
 }
 
 
