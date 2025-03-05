@@ -1,0 +1,154 @@
+body{
+    background-color: hsl(214, 12%, 89%);
+   
+}
+main{
+    background-color: hsl(210, 46%, 95%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+
+.imagen{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 360px;
+    align-items: center;
+}
+
+.texto1{
+    color: hsl(217, 19%, 35%);
+    font-size: 25px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.texto2{
+    color: hsl(214, 17%, 51%);
+    font-size: 20px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.imagen-chavala{
+    width: 50px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: -30px;
+}
+.fecha{
+    color: hsl(212, 23%, 69%);
+    margin-left: 92px;
+}
+.div-imagen{
+    display: block;
+    width: 100px;
+}
+.texto{
+    width: 380px;
+}
+.nombre{
+    margin-bottom: 300px;
+    margin-left: 10px;
+}
+.imagen-compartir{
+    margin-left: 90px;
+    margin-bottom: -25px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 10px;
+}
+.imagen-compartir2{
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: -1px;
+    
+}
+.contenido-inactivo{
+    background-color: hsl(217, 19%, 35%);
+    padding: 15px;
+    border-radius: 10px;    
+}
+.share{
+    color: hsl(214, 17%, 51%);
+    margin-left: 10px;
+    font-size: 20px;
+}
+.facebook{
+    margin-left: 30px;
+    width: 20px;
+}
+.twitter{
+    margin-left: 30px;
+    width: 20px;
+}
+.pinterest{
+    margin-left: 30px;
+    width: 20px;
+}
+button{
+    border: 1px;
+    background-color: hsl(210, 46%, 95%);
+}
+@media(min-width: 1440px){
+
+.texto{
+    background-color: white;
+    margin-left: 600px;
+    margin-right: 0px;
+    padding: 46px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    width: 460px;
+    height: 262px;
+}
+.texto1{
+    margin-top: -10px;
+    
+}
+.imagen{
+    margin-left: 240px;
+    margin-bottom: -357px;
+    width: 442px;
+    
+}
+button{
+    background-color: white;
+    
+}
+main{
+    margin-top: 200px;
+}
+body{
+    background-color: hsl(210, 46%, 95%);;
+    
+}
+.contenido-inactivo{
+    padding: 23px;
+}
+.imagen-compartir{
+    margin-left: 450px;
+}
+.imagen-chavala{
+    position: relative;
+}
+.fecha{
+    margin-top: -6px;
+}
+
+
+
+
+
+
+
+}
