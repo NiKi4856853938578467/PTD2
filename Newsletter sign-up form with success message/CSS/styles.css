@@ -1,0 +1,113 @@
+.imagen{
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.icono{
+    width: 20px;
+}
+.texto{
+    font-size: 16px;
+    .roboto-uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+}
+.titulo .correo {  
+    font-size: 16px;
+    .roboto-uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+    }
+input{
+    width: 330px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cuadrado-negro{
+    width: 355px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.893);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    .roboto-uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+}
+.div-escondido{
+    display: none;
+}
+.imagen-escondida{
+    margin-top: 100px;
+}
+.texto-escondido{
+    font-size: 18px;
+    .roboto-uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+
+}
+.cuadrado-negro2{
+    margin-top: 300px;
+    width: 355px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.893);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    .roboto-uniquifier> {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+}
+@media (min-width: 1440px){
+html{
+    background-color: hsl(234, 29%, 20%);
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: grid;
+    padding: 100px;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.div-texto{
+    margin-top: -20px;
+}
+.div-imagen{
+    margin-left: 430px;
+    margin-bottom: -350px;
+    
+}
+.imagen{
+    border-radius: 10px;
+    margin-top: 30px;
+}
+}

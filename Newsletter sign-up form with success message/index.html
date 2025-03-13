@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href=".//CSS/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./IMG/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div id="todo">
+  <div class="div-imagen">
+  <img src=".//IMG/illustration-sign-up-mobile.svg" class="imagen">
+  </div>
+  <div class="div-texto">
+  <h1 class="titulo">Stay updated!</h1>
+
+  <p class="texto">Join 60,000+ product managers receiving monthly updates on:</p>
+
+  <p>
+    <span>
+    <img src=".//IMG/icon-success.svg" class="icono">
+    </span>
+    <span class="texto">Product discovery and building what matters</span> 
+  </p>
+  
+  <p>
+    <span>
+    <img src=".//IMG/icon-success.svg" class="icono">
+    </span>
+    
+    <span class="texto">Measuring to ensure updates are a success</span>
+  </p>
+  <p>
+    <span>
+    <img src=".//IMG/icon-success.svg" class="icono">
+    </span>
+    <span class="texto">And much more!</span>
+  </p>
+
+  <p class="correo"><b>Email address</b></p>
+  <form>
+  <input placeholder="email@company.com" id="correo">
+</form>
+<p>
+  <button class="cuadrado-negro" onclick="boton()">Subscribe to monthly newsletter</button>
+</p>
+</div>
+<br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">NiKi</a>.
+  </div>
+</div>
+
+<!--DESPUES DE TOCAR EL BOTON-->
+<div class="div-escondido" id="escondido">
+<img src=".//IMG/icon-success.svg" class="imagen-escondida">
+<h1 class="titulo2">Thanks for subscribing!</h1>
+<p class="texto-escondido">A confirmation email has been sent to <b id="email"></b>
+  Please open it and click the button inside to confirm your subscription.</p>
+  <button class="cuadrado-negro2" onclick="boton2()">Dismiss message</button>
+</div>
+
+  
+</body>
+
+
+<script src="./JS/tariq.js"></script>
+</html>
